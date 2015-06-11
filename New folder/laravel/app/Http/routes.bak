@@ -1,0 +1,10 @@
+<?php
+Route::post('get_details', 'DetailsController@index');
+Route::controllers([
+
+	'auth' => 'Auth\AuthController',
+
+	'password' => 'Auth\PasswordController'
+      
+]);
+?>
